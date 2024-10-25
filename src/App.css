@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background: linear-gradient(to right, #672280, #A626D3);
+  color: whitesmoke;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header > div{
+  display: flex;
+  align-items: center;
+}
+
+#troll-face{
+  width: 50px;
+  margin-right: 10px;
+}
+
+.meme-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+
+.meme-inputs-div{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.meme-inputs{
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"]{
+  width: 500px;
+  height: 40px;
+  margin-top: 10px;
+  padding: 2px 5px;
+  font-size: larger;
+  border-radius: 10px;
+}
+
+input:focus{
+  outline: none;
+}
+
+.meme-inputs > label{
+  font-size: 40px;
+}
+
+button{
+  width: 1040px;
+  height: 50px;
+  background: linear-gradient(to right, #672280, #A626D3);
+  color: whitesmoke;
+  font-size:larger;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.memeImage{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.memeImage > img{
+  max-width: 600px;
+  height: auto;
+}
+
+.memeImage > h2{
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  color: whitesmoke;
+  text-shadow: 2px 2px 0 #000,
+              -2px -2px 0 #000,
+              2px -2px 0 #000,
+              -2px 2px 0 #000,
+              0 2px 0 #000,
+              2px 0 0 #000,
+              0 -2px 0 #000,
+              -2px 0 0 #000,
+              2px 2px 5px #000;
+  margin: 10px 1px;
+}
+
+.top-text{
+  top: 0;
+}
+
+.bottom-text{
+  bottom: 0;
+}
